@@ -1,0 +1,143 @@
+,antecedent,consequent,confidence,lift,support
+0,frozenset({'butter'}),frozenset({'bread'}),0.6666666666666667,1.1111111111111114,0.2
+1,frozenset({'bread'}),frozenset({'butter'}),0.33333333333333337,1.1111111111111114,0.2
+2,frozenset({'bread'}),frozenset({'cereals'}),0.16666666666666669,0.5555555555555557,0.1
+3,frozenset({'cereals'}),frozenset({'bread'}),0.33333333333333337,0.5555555555555557,0.1
+4,frozenset({'bread'}),frozenset({'coffee'}),0.16666666666666669,0.8333333333333334,0.1
+5,frozenset({'coffee'}),frozenset({'bread'}),0.5,0.8333333333333334,0.1
+6,frozenset({'bread'}),frozenset({'milk'}),0.6666666666666667,0.9523809523809526,0.4
+7,frozenset({'milk'}),frozenset({'bread'}),0.5714285714285715,0.9523809523809526,0.4
+8,frozenset({'bread'}),frozenset({'sugar'}),0.33333333333333337,1.1111111111111114,0.2
+9,frozenset({'sugar'}),frozenset({'bread'}),0.6666666666666667,1.1111111111111114,0.2
+10,frozenset({'bread'}),frozenset({'tea'}),0.33333333333333337,1.1111111111111114,0.2
+11,frozenset({'tea'}),frozenset({'bread'}),0.6666666666666667,1.1111111111111114,0.2
+12,frozenset({'butter'}),frozenset({'cereals'}),0.33333333333333337,1.1111111111111114,0.1
+13,frozenset({'cereals'}),frozenset({'butter'}),0.33333333333333337,1.1111111111111114,0.1
+14,frozenset({'butter'}),frozenset({'milk'}),0.6666666666666667,0.9523809523809526,0.2
+15,frozenset({'milk'}),frozenset({'butter'}),0.28571428571428575,0.9523809523809526,0.2
+16,frozenset({'cereals'}),frozenset({'milk'}),0.33333333333333337,0.4761904761904763,0.1
+17,frozenset({'milk'}),frozenset({'cereals'}),0.14285714285714288,0.4761904761904763,0.1
+18,frozenset({'cereals'}),frozenset({'sugar'}),0.33333333333333337,1.1111111111111114,0.1
+19,frozenset({'sugar'}),frozenset({'cereals'}),0.33333333333333337,1.1111111111111114,0.1
+20,frozenset({'tea'}),frozenset({'cereals'}),0.33333333333333337,1.1111111111111114,0.1
+21,frozenset({'cereals'}),frozenset({'tea'}),0.33333333333333337,1.1111111111111114,0.1
+22,frozenset({'coffee'}),frozenset({'milk'}),0.5,0.7142857142857143,0.1
+23,frozenset({'milk'}),frozenset({'coffee'}),0.14285714285714288,0.7142857142857143,0.1
+24,frozenset({'coffee'}),frozenset({'sugar'}),0.5,1.6666666666666667,0.1
+25,frozenset({'sugar'}),frozenset({'coffee'}),0.33333333333333337,1.6666666666666667,0.1
+26,frozenset({'tea'}),frozenset({'coffee'}),0.33333333333333337,1.6666666666666667,0.1
+27,frozenset({'coffee'}),frozenset({'tea'}),0.5,1.6666666666666667,0.1
+28,frozenset({'sugar'}),frozenset({'milk'}),0.6666666666666667,0.9523809523809526,0.2
+29,frozenset({'milk'}),frozenset({'sugar'}),0.28571428571428575,0.9523809523809526,0.2
+30,frozenset({'tea'}),frozenset({'milk'}),0.6666666666666667,0.9523809523809526,0.2
+31,frozenset({'milk'}),frozenset({'tea'}),0.28571428571428575,0.9523809523809526,0.2
+32,frozenset({'tea'}),frozenset({'sugar'}),1.0,3.3333333333333335,0.3
+33,frozenset({'sugar'}),frozenset({'tea'}),1.0,3.3333333333333335,0.3
+34,frozenset({'butter'}),"frozenset({'bread', 'milk'})",0.6666666666666667,1.6666666666666667,0.2
+35,frozenset({'bread'}),"frozenset({'butter', 'milk'})",0.33333333333333337,1.6666666666666667,0.2
+36,frozenset({'milk'}),"frozenset({'butter', 'bread'})",0.28571428571428575,1.4285714285714286,0.2
+37,"frozenset({'butter', 'bread'})",frozenset({'milk'}),1.0,1.4285714285714286,0.2
+38,"frozenset({'butter', 'milk'})",frozenset({'bread'}),1.0,1.6666666666666667,0.2
+39,"frozenset({'bread', 'milk'})",frozenset({'butter'}),0.5,1.6666666666666667,0.2
+40,frozenset({'bread'}),"frozenset({'cereals', 'sugar'})",0.16666666666666669,1.6666666666666667,0.1
+41,frozenset({'cereals'}),"frozenset({'bread', 'sugar'})",0.33333333333333337,1.6666666666666667,0.1
+42,frozenset({'sugar'}),"frozenset({'bread', 'cereals'})",0.33333333333333337,3.3333333333333335,0.1
+43,"frozenset({'bread', 'cereals'})",frozenset({'sugar'}),1.0,3.3333333333333335,0.1
+44,"frozenset({'bread', 'sugar'})",frozenset({'cereals'}),0.5,1.6666666666666667,0.1
+45,"frozenset({'cereals', 'sugar'})",frozenset({'bread'}),1.0,1.6666666666666667,0.1
+46,frozenset({'bread'}),"frozenset({'tea', 'cereals'})",0.16666666666666669,1.6666666666666667,0.1
+47,frozenset({'tea'}),"frozenset({'bread', 'cereals'})",0.33333333333333337,3.3333333333333335,0.1
+48,frozenset({'cereals'}),"frozenset({'bread', 'tea'})",0.33333333333333337,1.6666666666666667,0.1
+49,"frozenset({'bread', 'tea'})",frozenset({'cereals'}),0.5,1.6666666666666667,0.1
+50,"frozenset({'bread', 'cereals'})",frozenset({'tea'}),1.0,3.3333333333333335,0.1
+51,"frozenset({'tea', 'cereals'})",frozenset({'bread'}),1.0,1.6666666666666667,0.1
+52,frozenset({'sugar'}),"frozenset({'bread', 'milk'})",0.33333333333333337,0.8333333333333334,0.1
+53,frozenset({'bread'}),"frozenset({'milk', 'sugar'})",0.16666666666666669,0.8333333333333334,0.1
+54,frozenset({'milk'}),"frozenset({'bread', 'sugar'})",0.14285714285714288,0.7142857142857143,0.1
+55,"frozenset({'bread', 'sugar'})",frozenset({'milk'}),0.5,0.7142857142857143,0.1
+56,"frozenset({'milk', 'sugar'})",frozenset({'bread'}),0.5,0.8333333333333334,0.1
+57,"frozenset({'bread', 'milk'})",frozenset({'sugar'}),0.25,0.8333333333333334,0.1
+58,frozenset({'bread'}),"frozenset({'tea', 'milk'})",0.16666666666666669,0.8333333333333334,0.1
+59,frozenset({'tea'}),"frozenset({'bread', 'milk'})",0.33333333333333337,0.8333333333333334,0.1
+60,frozenset({'milk'}),"frozenset({'bread', 'tea'})",0.14285714285714288,0.7142857142857143,0.1
+61,"frozenset({'bread', 'tea'})",frozenset({'milk'}),0.5,0.7142857142857143,0.1
+62,"frozenset({'bread', 'milk'})",frozenset({'tea'}),0.25,0.8333333333333334,0.1
+63,"frozenset({'tea', 'milk'})",frozenset({'bread'}),0.5,0.8333333333333334,0.1
+64,frozenset({'bread'}),"frozenset({'tea', 'sugar'})",0.33333333333333337,1.1111111111111114,0.2
+65,frozenset({'tea'}),"frozenset({'bread', 'sugar'})",0.6666666666666667,3.3333333333333335,0.2
+66,frozenset({'sugar'}),"frozenset({'bread', 'tea'})",0.6666666666666667,3.3333333333333335,0.2
+67,"frozenset({'bread', 'tea'})",frozenset({'sugar'}),1.0,3.3333333333333335,0.2
+68,"frozenset({'bread', 'sugar'})",frozenset({'tea'}),1.0,3.3333333333333335,0.2
+69,"frozenset({'tea', 'sugar'})",frozenset({'bread'}),0.6666666666666667,1.1111111111111114,0.2
+70,frozenset({'tea'}),"frozenset({'cereals', 'sugar'})",0.33333333333333337,3.3333333333333335,0.1
+71,frozenset({'cereals'}),"frozenset({'tea', 'sugar'})",0.33333333333333337,1.1111111111111114,0.1
+72,frozenset({'sugar'}),"frozenset({'tea', 'cereals'})",0.33333333333333337,3.3333333333333335,0.1
+73,"frozenset({'tea', 'cereals'})",frozenset({'sugar'}),1.0,3.3333333333333335,0.1
+74,"frozenset({'tea', 'sugar'})",frozenset({'cereals'}),0.33333333333333337,1.1111111111111114,0.1
+75,"frozenset({'cereals', 'sugar'})",frozenset({'tea'}),1.0,3.3333333333333335,0.1
+76,frozenset({'sugar'}),"frozenset({'coffee', 'milk'})",0.33333333333333337,3.3333333333333335,0.1
+77,frozenset({'coffee'}),"frozenset({'milk', 'sugar'})",0.5,2.5,0.1
+78,frozenset({'milk'}),"frozenset({'coffee', 'sugar'})",0.14285714285714288,1.4285714285714286,0.1
+79,"frozenset({'coffee', 'sugar'})",frozenset({'milk'}),1.0,1.4285714285714286,0.1
+80,"frozenset({'milk', 'sugar'})",frozenset({'coffee'}),0.5,2.5,0.1
+81,"frozenset({'coffee', 'milk'})",frozenset({'sugar'}),1.0,3.3333333333333335,0.1
+82,frozenset({'tea'}),"frozenset({'coffee', 'milk'})",0.33333333333333337,3.3333333333333335,0.1
+83,frozenset({'coffee'}),"frozenset({'tea', 'milk'})",0.5,2.5,0.1
+84,frozenset({'milk'}),"frozenset({'tea', 'coffee'})",0.14285714285714288,1.4285714285714286,0.1
+85,"frozenset({'tea', 'coffee'})",frozenset({'milk'}),1.0,1.4285714285714286,0.1
+86,"frozenset({'tea', 'milk'})",frozenset({'coffee'}),0.5,2.5,0.1
+87,"frozenset({'coffee', 'milk'})",frozenset({'tea'}),1.0,3.3333333333333335,0.1
+88,frozenset({'tea'}),"frozenset({'coffee', 'sugar'})",0.33333333333333337,3.3333333333333335,0.1
+89,frozenset({'coffee'}),"frozenset({'tea', 'sugar'})",0.5,1.6666666666666667,0.1
+90,frozenset({'sugar'}),"frozenset({'tea', 'coffee'})",0.33333333333333337,3.3333333333333335,0.1
+91,"frozenset({'tea', 'coffee'})",frozenset({'sugar'}),1.0,3.3333333333333335,0.1
+92,"frozenset({'tea', 'sugar'})",frozenset({'coffee'}),0.33333333333333337,1.6666666666666667,0.1
+93,"frozenset({'coffee', 'sugar'})",frozenset({'tea'}),1.0,3.3333333333333335,0.1
+94,frozenset({'sugar'}),"frozenset({'tea', 'milk'})",0.6666666666666667,3.3333333333333335,0.2
+95,frozenset({'tea'}),"frozenset({'milk', 'sugar'})",0.6666666666666667,3.3333333333333335,0.2
+96,frozenset({'milk'}),"frozenset({'tea', 'sugar'})",0.28571428571428575,0.9523809523809526,0.2
+97,"frozenset({'tea', 'sugar'})",frozenset({'milk'}),0.6666666666666667,0.9523809523809526,0.2
+98,"frozenset({'milk', 'sugar'})",frozenset({'tea'}),1.0,3.3333333333333335,0.2
+99,"frozenset({'tea', 'milk'})",frozenset({'sugar'}),1.0,3.3333333333333335,0.2
+100,frozenset({'tea'}),"frozenset({'bread', 'cereals', 'sugar'})",0.33333333333333337,3.3333333333333335,0.1
+101,frozenset({'bread'}),"frozenset({'tea', 'cereals', 'sugar'})",0.16666666666666669,1.6666666666666667,0.1
+102,frozenset({'cereals'}),"frozenset({'bread', 'tea', 'sugar'})",0.33333333333333337,1.6666666666666667,0.1
+103,frozenset({'sugar'}),"frozenset({'bread', 'tea', 'cereals'})",0.33333333333333337,3.3333333333333335,0.1
+104,"frozenset({'bread', 'tea'})","frozenset({'cereals', 'sugar'})",0.5,5.0,0.1
+105,"frozenset({'tea', 'cereals'})","frozenset({'bread', 'sugar'})",1.0,5.0,0.1
+106,"frozenset({'tea', 'sugar'})","frozenset({'bread', 'cereals'})",0.33333333333333337,3.3333333333333335,0.1
+107,"frozenset({'bread', 'cereals'})","frozenset({'tea', 'sugar'})",1.0,3.3333333333333335,0.1
+108,"frozenset({'bread', 'sugar'})","frozenset({'tea', 'cereals'})",0.5,5.0,0.1
+109,"frozenset({'cereals', 'sugar'})","frozenset({'bread', 'tea'})",1.0,5.0,0.1
+110,"frozenset({'bread', 'tea', 'cereals'})",frozenset({'sugar'}),1.0,3.3333333333333335,0.1
+111,"frozenset({'bread', 'tea', 'sugar'})",frozenset({'cereals'}),0.5,1.6666666666666667,0.1
+112,"frozenset({'tea', 'cereals', 'sugar'})",frozenset({'bread'}),1.0,1.6666666666666667,0.1
+113,"frozenset({'bread', 'cereals', 'sugar'})",frozenset({'tea'}),1.0,3.3333333333333335,0.1
+114,frozenset({'tea'}),"frozenset({'sugar', 'bread', 'milk'})",0.33333333333333337,3.3333333333333335,0.1
+115,frozenset({'milk'}),"frozenset({'bread', 'tea', 'sugar'})",0.14285714285714288,0.7142857142857143,0.1
+116,frozenset({'bread'}),"frozenset({'sugar', 'tea', 'milk'})",0.16666666666666669,0.8333333333333334,0.1
+117,frozenset({'sugar'}),"frozenset({'bread', 'tea', 'milk'})",0.33333333333333337,3.3333333333333335,0.1
+118,"frozenset({'tea', 'milk'})","frozenset({'bread', 'sugar'})",0.5,2.5,0.1
+119,"frozenset({'bread', 'tea'})","frozenset({'sugar', 'milk'})",0.5,2.5,0.1
+120,"frozenset({'tea', 'sugar'})","frozenset({'bread', 'milk'})",0.33333333333333337,0.8333333333333334,0.1
+121,"frozenset({'bread', 'milk'})","frozenset({'tea', 'sugar'})",0.25,0.8333333333333334,0.1
+122,"frozenset({'sugar', 'milk'})","frozenset({'bread', 'tea'})",0.5,2.5,0.1
+123,"frozenset({'bread', 'sugar'})","frozenset({'tea', 'milk'})",0.5,2.5,0.1
+124,"frozenset({'bread', 'tea', 'milk'})",frozenset({'sugar'}),1.0,3.3333333333333335,0.1
+125,"frozenset({'sugar', 'tea', 'milk'})",frozenset({'bread'}),0.5,0.8333333333333334,0.1
+126,"frozenset({'bread', 'tea', 'sugar'})",frozenset({'milk'}),0.5,0.7142857142857143,0.1
+127,"frozenset({'sugar', 'bread', 'milk'})",frozenset({'tea'}),1.0,3.3333333333333335,0.1
+128,frozenset({'tea'}),"frozenset({'sugar', 'coffee', 'milk'})",0.33333333333333337,3.3333333333333335,0.1
+129,frozenset({'milk'}),"frozenset({'tea', 'coffee', 'sugar'})",0.14285714285714288,1.4285714285714286,0.1
+130,frozenset({'coffee'}),"frozenset({'sugar', 'tea', 'milk'})",0.5,2.5,0.1
+131,frozenset({'sugar'}),"frozenset({'tea', 'coffee', 'milk'})",0.33333333333333337,3.3333333333333335,0.1
+132,"frozenset({'tea', 'milk'})","frozenset({'coffee', 'sugar'})",0.5,5.0,0.1
+133,"frozenset({'tea', 'coffee'})","frozenset({'sugar', 'milk'})",1.0,5.0,0.1
+134,"frozenset({'tea', 'sugar'})","frozenset({'coffee', 'milk'})",0.33333333333333337,3.3333333333333335,0.1
+135,"frozenset({'coffee', 'milk'})","frozenset({'tea', 'sugar'})",1.0,3.3333333333333335,0.1
+136,"frozenset({'sugar', 'milk'})","frozenset({'tea', 'coffee'})",0.5,5.0,0.1
+137,"frozenset({'coffee', 'sugar'})","frozenset({'tea', 'milk'})",1.0,5.0,0.1
+138,"frozenset({'tea', 'coffee', 'milk'})",frozenset({'sugar'}),1.0,3.3333333333333335,0.1
+139,"frozenset({'sugar', 'tea', 'milk'})",frozenset({'coffee'}),0.5,2.5,0.1
+140,"frozenset({'tea', 'coffee', 'sugar'})",frozenset({'milk'}),1.0,1.4285714285714286,0.1
+141,"frozenset({'sugar', 'coffee', 'milk'})",frozenset({'tea'}),1.0,3.3333333333333335,0.1
