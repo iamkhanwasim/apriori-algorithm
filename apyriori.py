@@ -22,7 +22,7 @@ def generate_frequent_itemsets(df, min_support=0.5):
         
         # print(type(int(df[column].sum())))
         # print(type(num_transactions))
-        support = int(df[column].sum()) / num_transactions
+        support = df[column].sum() / num_transactions
         if support >= min_support:
             item_support[frozenset([column])] = support
     
@@ -112,13 +112,11 @@ def generate_rules_3(frequent_itemsets, min_confidence=0.5, max_antecedent=2, ma
 
 if __name__ == "__main__":    
     basket = pd.DataFrame({ 
-        'bread': ['1', '1', '0', '0', '1'],
-        'butter': ['1', '1', '1', '1', '1'],
-        'coffee': ['0', '1', '1', '1', '1'],
-        'milk': ['1', '1', '1', '1', '1'],
-        'sugar': ['0', '1', '0', '1', '0']}
-
-    )
+        'bread': [1, 1, 0, 0, 1],
+        'butter': [1, 1, 1, 1, 1],
+        'coffee': [0, 1, 1, 1, 1],
+        'milk': [1, 1, 1, 1, 1],
+        'sugar': [0, 1, 0, 1, 0]})
     # print(basket)
     frequent_itemsets = generate_frequent_itemsets(basket, 0.1)
     rules_df = generate_rules_3(frequent_itemsets, 0,5,5)
