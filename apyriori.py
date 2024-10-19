@@ -91,6 +91,7 @@ def generate_rules_3(frequent_itemsets, min_confidence=0.5, max_antecedent=2, ma
                         confidence = frequent_itemsets[itemset] / frequent_itemsets[antecedent]
                         
                         # Only consider rules with confidence greater than or equal to min_confidence
+                        
                         if confidence >= min_confidence:
                             # Calculate lift: Lift(A → B) = confidence(A → B) / support(B)
                             lift = confidence / frequent_itemsets[frozenset(consequent)]
